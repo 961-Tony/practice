@@ -420,3 +420,18 @@ main {
   height: 100vh;
   background: black;
 }
+@media (max-width:767px) {
+  section{
+    display: flex;
+    flex-direction: column;
+  }
+  .btn{
+    margin-top: 0;
+  }
+  main .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-15%);
+  }
+}

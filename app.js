@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
+//Function to send an email with auto select the to selector
 function openEmail() {
   var emailAddress = "tonyayda7@gmail.com";
   window.location.href = "mailto:" + emailAddress;
